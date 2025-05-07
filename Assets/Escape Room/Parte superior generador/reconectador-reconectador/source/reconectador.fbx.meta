@@ -3,7 +3,27 @@ guid: c0f09104f3d3e419890b2d04d7108633
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamina
+    second: {fileID: 2100000, guid: 04222c3d613c746a293d2efb870056be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mcable
+    second: {fileID: 2100000, guid: 8a95e3e9b1e6243da825d50a0b84ef03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Platina
+    second: {fileID: 2100000, guid: f8b4adc7b1dcf4f03964932ddbfa98e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tornillo
+    second: {fileID: 2100000, guid: 6b931a8560e844bb9b00a47b014248ff, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
