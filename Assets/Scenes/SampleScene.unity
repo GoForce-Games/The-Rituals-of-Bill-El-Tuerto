@@ -288,7 +288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9fe7f2ed405654172a1ade93013b11e5, type: 3}
       propertyPath: m_Name
-      value: EXP
+      value: Estanteria
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -553,7 +553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d79b951ee8eb5477e903d9b9e8e23654, type: 3}
       propertyPath: m_Name
-      value: Mask_low (1)
+      value: MascaraJapo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1765,7 +1765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d79b951ee8eb5477e903d9b9e8e23654, type: 3}
       propertyPath: m_Name
-      value: Mask_low (4)
+      value: MascaraJapo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2215,7 +2215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d73b5af737849468c8a41f811a6375c1, type: 3}
       propertyPath: m_Name
-      value: bones
+      value: Huesos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3965,7 +3965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f88e2cd644d5442e7924bc9cc88994d8, type: 3}
       propertyPath: m_Name
-      value: etiqueta
+      value: Etiqueta
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4661,7 +4661,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c0f09104f3d3e419890b2d04d7108633, type: 3}
       propertyPath: m_Name
-      value: reconectador
+      value: ParteSuperiorGenerador
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -8727,7 +8727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d79b951ee8eb5477e903d9b9e8e23654, type: 3}
       propertyPath: m_Name
-      value: Mask_low (3)
+      value: MascaraJapo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8801,7 +8801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d79b951ee8eb5477e903d9b9e8e23654, type: 3}
       propertyPath: m_Name
-      value: Mask_low (2)
+      value: MascaraJapo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10154,7 +10154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cdf94fff708744470b7fa357fd7483b1, type: 3}
       propertyPath: m_Name
-      value: generator_LP
+      value: Generador
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10924,7 +10924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a1bdd5fedda3847ca8a8fe355ff9bc6b, type: 3}
       propertyPath: m_Name
-      value: 9fcd17e112d34d739df97291276bc18d.fbx
+      value: CajaFuerte
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13316,7 +13316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d79b951ee8eb5477e903d9b9e8e23654, type: 3}
       propertyPath: m_Name
-      value: Mask_low (5)
+      value: MascaraJapo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14464,7 +14464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d79b951ee8eb5477e903d9b9e8e23654, type: 3}
       propertyPath: m_Name
-      value: Mask_low
+      value: MascaraJapo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14886,31 +14886,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb98d4b07f3f3486a9a674df40b1baec, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.01
+      value: -18.191
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb98d4b07f3f3486a9a674df40b1baec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.922
+      value: 1.07
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb98d4b07f3f3486a9a674df40b1baec, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.414
+      value: 0.837
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb98d4b07f3f3486a9a674df40b1baec, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6933051
+      value: 0.61512715
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb98d4b07f3f3486a9a674df40b1baec, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.13902551
+      value: 0.34873855
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb98d4b07f3f3486a9a674df40b1baec, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.13902555
+      value: 0.34873855
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb98d4b07f3f3486a9a674df40b1baec, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.69330513
+      value: 0.6151272
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb98d4b07f3f3486a9a674df40b1baec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14918,7 +14918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb98d4b07f3f3486a9a674df40b1baec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 22.678
+      value: 59.101
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb98d4b07f3f3486a9a674df40b1baec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -15976,7 +15976,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8709b326ae9bd408cb03de31c403b5d5, type: 3}
       propertyPath: m_Name
-      value: 11
+      value: PanelElectrico
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16066,7 +16066,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ffb5487b446024d62b7c0affcec6e207, type: 3}
       propertyPath: m_Name
-      value: '#ELX0002_VCR'
+      value: AparatoVHS
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20286,6 +20286,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c18c2334d0f5bb94cbb090401535d577, type: 3}
+--- !u!1001 &8578188035147031702
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7033060131248951849, guid: d427202080d474547b7a2734a4afda8e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.409
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033060131248951849, guid: d427202080d474547b7a2734a4afda8e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.941
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033060131248951849, guid: d427202080d474547b7a2734a4afda8e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033060131248951849, guid: d427202080d474547b7a2734a4afda8e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6730586
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033060131248951849, guid: d427202080d474547b7a2734a4afda8e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.042012777
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033060131248951849, guid: d427202080d474547b7a2734a4afda8e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7136339
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033060131248951849, guid: d427202080d474547b7a2734a4afda8e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.18961447
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033060131248951849, guid: d427202080d474547b7a2734a4afda8e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -12.361
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033060131248951849, guid: d427202080d474547b7a2734a4afda8e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 91.295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033060131248951849, guid: d427202080d474547b7a2734a4afda8e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 18.826
+      objectReference: {fileID: 0}
+    - target: {fileID: 7697111641124374675, guid: d427202080d474547b7a2734a4afda8e, type: 3}
+      propertyPath: m_Name
+      value: DiosJapones
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d427202080d474547b7a2734a4afda8e, type: 3}
 --- !u!4 &9131688449649986390 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2224261485402360553, guid: 29529d949c965f643befe6cfcd1e372c, type: 3}
@@ -20323,3 +20380,4 @@ SceneRoots:
   - {fileID: 109860045}
   - {fileID: 955359154}
   - {fileID: 205347299}
+  - {fileID: 8578188035147031702}
