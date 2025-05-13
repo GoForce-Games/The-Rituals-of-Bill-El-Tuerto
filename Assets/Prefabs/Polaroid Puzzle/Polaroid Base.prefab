@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 129722701106229455}
   - component: {fileID: 3514964437157387914}
   - component: {fileID: 6555659989368558058}
+  - component: {fileID: 8557079864797244653}
   m_Layer: 0
   m_Name: Polaroid Base
   m_TagString: Untagged
@@ -289,6 +290,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0009231752, y: 0.0011107028, z: 0.000030015866}
   m_Center: {x: 5.6653148e-34, y: -2.8280454e-26, z: -1.5767387e-11}
+--- !u!114 &8557079864797244653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7524237752733766151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e085a1ba6eb60644b823fd5fcb33316f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storedText: Test
+  storedColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &8788322346821470520
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,8 +412,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+    rgba: 4278190141
+  m_fontColor: {r: 0.23899364, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -431,7 +446,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}

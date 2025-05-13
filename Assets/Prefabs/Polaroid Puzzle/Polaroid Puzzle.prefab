@@ -64,6 +64,89 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2674474018440556478}
+  - {fileID: 1030829556253764932}
+  - {fileID: 1618200907337959305}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5907283386214684014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2674474018440556478}
+  - component: {fileID: 829731691134138940}
+  m_Layer: 0
+  m_Name: EventBridge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2674474018440556478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5907283386214684014}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.025240077, y: 0.2996535, z: 0.0014125407}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4844218864965667602}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &829731691134138940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5907283386214684014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28eef785a8d7d184ca254f74680fff33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events:
+  - eventName: OnLightSwitchToggle
+    unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!1 &6283874598286298282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030829556253764932}
+  m_Layer: 0
+  m_Name: Polaroids
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030829556253764932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6283874598286298282}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
   - {fileID: 7665822387014725654}
   - {fileID: 1167718800484351712}
   - {fileID: 809777607941248923}
@@ -74,9 +157,8 @@ Transform:
   - {fileID: 4418037437882491152}
   - {fileID: 9156319370344282374}
   - {fileID: 8517604864406223011}
-  - {fileID: 1618200907337959305}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 4844218864965667602}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &1114330073612357690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89,6 +171,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Light_Switch_Rocker_2_1
       objectReference: {fileID: 0}
+    - target: {fileID: 7801982128557982651, guid: b7581d6b5fb7d4e49a4b1d163db60fc2, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801982128557982651, guid: b7581d6b5fb7d4e49a4b1d163db60fc2, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     - target: {fileID: 7815031939634565454, guid: b7581d6b5fb7d4e49a4b1d163db60fc2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.15
@@ -129,6 +219,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8765801875372037773, guid: b7581d6b5fb7d4e49a4b1d163db60fc2, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765801875372037773, guid: b7581d6b5fb7d4e49a4b1d163db60fc2, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -145,7 +243,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4844218864965667602}
+    m_TransformParent: {fileID: 1030829556253764932}
     m_Modifications:
     - target: {fileID: 5876707755435364677, guid: 973a725db3379624e8bdae7d1dea0c03, type: 3}
       propertyPath: m_LocalPosition.x
@@ -187,6 +285,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7598986610669146928, guid: 973a725db3379624e8bdae7d1dea0c03, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598986610669146928, guid: 973a725db3379624e8bdae7d1dea0c03, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     - target: {fileID: 8637528730442853850, guid: 973a725db3379624e8bdae7d1dea0c03, type: 3}
       propertyPath: m_Name
       value: Polaroid Base Variant 5
@@ -213,6 +319,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Light_Switch_Rocker_1
       objectReference: {fileID: 0}
+    - target: {fileID: 6671920373883118817, guid: c68ad5b67e7cd1042a90a4a3715d2e48, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671920373883118817, guid: c68ad5b67e7cd1042a90a4a3715d2e48, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     - target: {fileID: 8640435641897356496, guid: c68ad5b67e7cd1042a90a4a3715d2e48, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.15
@@ -269,8 +383,16 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4844218864965667602}
+    m_TransformParent: {fileID: 1030829556253764932}
     m_Modifications:
+    - target: {fileID: 4895624300171616241, guid: e4eddec854cb3474ab7debcf7531b732, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4895624300171616241, guid: e4eddec854cb3474ab7debcf7531b732, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     - target: {fileID: 6727090103310311707, guid: e4eddec854cb3474ab7debcf7531b732, type: 3}
       propertyPath: m_Name
       value: Polaroid Base Variant 2
@@ -331,7 +453,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4844218864965667602}
+    m_TransformParent: {fileID: 1030829556253764932}
     m_Modifications:
     - target: {fileID: 4418081941653614439, guid: 8e3e5a2200332ed40b9ebfaebb08c1fe, type: 3}
       propertyPath: m_renderer
@@ -351,7 +473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5637273435110600344, guid: 8e3e5a2200332ed40b9ebfaebb08c1fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.3
+      value: 0.30000004
       objectReference: {fileID: 0}
     - target: {fileID: 5637273435110600344, guid: 8e3e5a2200332ed40b9ebfaebb08c1fe, type: 3}
       propertyPath: m_LocalPosition.z
@@ -389,6 +511,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Polaroid Base
       objectReference: {fileID: 0}
+    - target: {fileID: 8557079864797244653, guid: 8e3e5a2200332ed40b9ebfaebb08c1fe, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557079864797244653, guid: 8e3e5a2200332ed40b9ebfaebb08c1fe, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -412,6 +542,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1618200907337959305}
     m_Modifications:
+    - target: {fileID: 635738673727842738, guid: 043d83e9012dbf944b1479a8ad74721a, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 635738673727842738, guid: 043d83e9012dbf944b1479a8ad74721a, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     - target: {fileID: 4573214158496127091, guid: 043d83e9012dbf944b1479a8ad74721a, type: 3}
       propertyPath: m_Name
       value: Light_Switch_Rocker_1_1
@@ -472,7 +610,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4844218864965667602}
+    m_TransformParent: {fileID: 1030829556253764932}
     m_Modifications:
     - target: {fileID: 4758079802622542493, guid: becb3fb694c22474b82f89c9499e03cb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -518,6 +656,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Polaroid Base Variant 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8859526879961891048, guid: becb3fb694c22474b82f89c9499e03cb, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859526879961891048, guid: becb3fb694c22474b82f89c9499e03cb, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -534,7 +680,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4844218864965667602}
+    m_TransformParent: {fileID: 1030829556253764932}
     m_Modifications:
     - target: {fileID: 280381227088971492, guid: 9da8f51477e63114f81ce55b390875c9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -580,6 +726,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Polaroid Base Variant 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4260222331214087313, guid: 9da8f51477e63114f81ce55b390875c9, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260222331214087313, guid: 9da8f51477e63114f81ce55b390875c9, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -596,7 +750,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4844218864965667602}
+    m_TransformParent: {fileID: 1030829556253764932}
     m_Modifications:
     - target: {fileID: 1558363062477973721, guid: dc5e3657a592c074c9aa6396f68f04ca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -638,6 +792,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3268256996187876012, guid: dc5e3657a592c074c9aa6396f68f04ca, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268256996187876012, guid: dc5e3657a592c074c9aa6396f68f04ca, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     - target: {fileID: 3742635318899250246, guid: dc5e3657a592c074c9aa6396f68f04ca, type: 3}
       propertyPath: m_Name
       value: Polaroid Base Variant 4
@@ -658,7 +820,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4844218864965667602}
+    m_TransformParent: {fileID: 1030829556253764932}
     m_Modifications:
     - target: {fileID: 4951405963014502081, guid: 310e9d63bc2ec4441b7aba5ed400caaf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -704,6 +866,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Polaroid Base Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8957002029324743860, guid: 310e9d63bc2ec4441b7aba5ed400caaf, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957002029324743860, guid: 310e9d63bc2ec4441b7aba5ed400caaf, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -720,7 +890,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4844218864965667602}
+    m_TransformParent: {fileID: 1030829556253764932}
     m_Modifications:
     - target: {fileID: 5830733693345726358, guid: 00b5d4f672deb724e8b2fd3ac8cec223, type: 3}
       propertyPath: m_LocalPosition.x
@@ -762,6 +932,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7498961737797189091, guid: 00b5d4f672deb724e8b2fd3ac8cec223, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7498961737797189091, guid: 00b5d4f672deb724e8b2fd3ac8cec223, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     - target: {fileID: 8555156396763579145, guid: 00b5d4f672deb724e8b2fd3ac8cec223, type: 3}
       propertyPath: m_Name
       value: Polaroid Base Variant 1
@@ -782,7 +960,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4844218864965667602}
+    m_TransformParent: {fileID: 1030829556253764932}
     m_Modifications:
     - target: {fileID: 1691955191040776079, guid: 75c494b0f499aa943ab6b1ba78c6d8fc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -824,6 +1002,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3422820202159363578, guid: 75c494b0f499aa943ab6b1ba78c6d8fc, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422820202159363578, guid: 75c494b0f499aa943ab6b1ba78c6d8fc, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     - target: {fileID: 3543172116819602192, guid: 75c494b0f499aa943ab6b1ba78c6d8fc, type: 3}
       propertyPath: m_Name
       value: Polaroid Base Variant 8
@@ -844,8 +1030,16 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4844218864965667602}
+    m_TransformParent: {fileID: 1030829556253764932}
     m_Modifications:
+    - target: {fileID: 5272376667317559453, guid: 028b3b4ee5ac4f840b953f76eeaeb3ab, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5272376667317559453, guid: 028b3b4ee5ac4f840b953f76eeaeb3ab, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     - target: {fileID: 6305200244432952951, guid: 028b3b4ee5ac4f840b953f76eeaeb3ab, type: 3}
       propertyPath: m_Name
       value: Polaroid Base Variant 3
@@ -952,6 +1146,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Light_Switch_Rocker_2
       objectReference: {fileID: 0}
+    - target: {fileID: 5136221749575299470, guid: 0e0fef9ec2426b94e91cffc25e8eb449, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136221749575299470, guid: 0e0fef9ec2426b94e91cffc25e8eb449, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 5695536569556262044, guid: 0e0fef9ec2426b94e91cffc25e8eb449, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5695536569556262044, guid: 0e0fef9ec2426b94e91cffc25e8eb449, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
