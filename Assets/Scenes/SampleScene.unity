@@ -9483,7 +9483,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 12.4
   m_Range: 295.55
   m_SpotAngle: 116.73261
   m_InnerSpotAngle: 108.5347
