@@ -17,6 +17,8 @@ public class TextSwapperEditor : Editor
     public override void OnInspectorGUI()
     {
         serializedObject.Update();
+        
+        DrawPropertiesExcluding(serializedObject, "eventBridge", "eventName");
 
         EditorGUILayout.PropertyField(eventBridgeProp);
 

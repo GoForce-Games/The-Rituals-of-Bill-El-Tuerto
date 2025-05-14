@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Polaroid Base Variant 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8557079864797244653, guid: 8e3e5a2200332ed40b9ebfaebb08c1fe, type: 3}
+      propertyPath: storedText
+      value: "\u304A"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
