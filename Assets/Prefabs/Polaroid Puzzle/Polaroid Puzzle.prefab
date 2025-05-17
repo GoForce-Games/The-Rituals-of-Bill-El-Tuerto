@@ -179,6 +179,14 @@ PrefabInstance:
       propertyPath: eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 7801982128557982651, guid: b7581d6b5fb7d4e49a4b1d163db60fc2, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801982128557982651, guid: b7581d6b5fb7d4e49a4b1d163db60fc2, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     - target: {fileID: 7815031939634565454, guid: b7581d6b5fb7d4e49a4b1d163db60fc2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.15
@@ -225,6 +233,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8765801875372037773, guid: b7581d6b5fb7d4e49a4b1d163db60fc2, type: 3}
       propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 8765801875372037773, guid: b7581d6b5fb7d4e49a4b1d163db60fc2, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765801875372037773, guid: b7581d6b5fb7d4e49a4b1d163db60fc2, type: 3}
+      propertyPath: eventBridgeData.eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
     m_RemovedComponents: []
@@ -293,6 +309,14 @@ PrefabInstance:
       propertyPath: eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 7598986610669146928, guid: 973a725db3379624e8bdae7d1dea0c03, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598986610669146928, guid: 973a725db3379624e8bdae7d1dea0c03, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     - target: {fileID: 8637528730442853850, guid: 973a725db3379624e8bdae7d1dea0c03, type: 3}
       propertyPath: m_Name
       value: Polaroid Base Variant 5
@@ -325,6 +349,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6671920373883118817, guid: c68ad5b67e7cd1042a90a4a3715d2e48, type: 3}
       propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 6671920373883118817, guid: c68ad5b67e7cd1042a90a4a3715d2e48, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671920373883118817, guid: c68ad5b67e7cd1042a90a4a3715d2e48, type: 3}
+      propertyPath: eventBridgeData.eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
     - target: {fileID: 8640435641897356496, guid: c68ad5b67e7cd1042a90a4a3715d2e48, type: 3}
@@ -391,6 +423,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4895624300171616241, guid: e4eddec854cb3474ab7debcf7531b732, type: 3}
       propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 4895624300171616241, guid: e4eddec854cb3474ab7debcf7531b732, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4895624300171616241, guid: e4eddec854cb3474ab7debcf7531b732, type: 3}
+      propertyPath: eventBridgeData.eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
     - target: {fileID: 6727090103310311707, guid: e4eddec854cb3474ab7debcf7531b732, type: 3}
@@ -519,6 +559,14 @@ PrefabInstance:
       propertyPath: eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 8557079864797244653, guid: 8e3e5a2200332ed40b9ebfaebb08c1fe, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557079864797244653, guid: 8e3e5a2200332ed40b9ebfaebb08c1fe, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -548,6 +596,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 635738673727842738, guid: 043d83e9012dbf944b1479a8ad74721a, type: 3}
       propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 635738673727842738, guid: 043d83e9012dbf944b1479a8ad74721a, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 635738673727842738, guid: 043d83e9012dbf944b1479a8ad74721a, type: 3}
+      propertyPath: eventBridgeData.eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
     - target: {fileID: 4573214158496127091, guid: 043d83e9012dbf944b1479a8ad74721a, type: 3}
@@ -664,6 +720,14 @@ PrefabInstance:
       propertyPath: eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 8859526879961891048, guid: becb3fb694c22474b82f89c9499e03cb, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859526879961891048, guid: becb3fb694c22474b82f89c9499e03cb, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -734,6 +798,14 @@ PrefabInstance:
       propertyPath: eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 4260222331214087313, guid: 9da8f51477e63114f81ce55b390875c9, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260222331214087313, guid: 9da8f51477e63114f81ce55b390875c9, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -798,6 +870,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3268256996187876012, guid: dc5e3657a592c074c9aa6396f68f04ca, type: 3}
       propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 3268256996187876012, guid: dc5e3657a592c074c9aa6396f68f04ca, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268256996187876012, guid: dc5e3657a592c074c9aa6396f68f04ca, type: 3}
+      propertyPath: eventBridgeData.eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
     - target: {fileID: 3742635318899250246, guid: dc5e3657a592c074c9aa6396f68f04ca, type: 3}
@@ -874,6 +954,14 @@ PrefabInstance:
       propertyPath: eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 8957002029324743860, guid: 310e9d63bc2ec4441b7aba5ed400caaf, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957002029324743860, guid: 310e9d63bc2ec4441b7aba5ed400caaf, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -938,6 +1026,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7498961737797189091, guid: 00b5d4f672deb724e8b2fd3ac8cec223, type: 3}
       propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 7498961737797189091, guid: 00b5d4f672deb724e8b2fd3ac8cec223, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7498961737797189091, guid: 00b5d4f672deb724e8b2fd3ac8cec223, type: 3}
+      propertyPath: eventBridgeData.eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
     - target: {fileID: 8555156396763579145, guid: 00b5d4f672deb724e8b2fd3ac8cec223, type: 3}
@@ -1010,6 +1106,14 @@ PrefabInstance:
       propertyPath: eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 3422820202159363578, guid: 75c494b0f499aa943ab6b1ba78c6d8fc, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422820202159363578, guid: 75c494b0f499aa943ab6b1ba78c6d8fc, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     - target: {fileID: 3543172116819602192, guid: 75c494b0f499aa943ab6b1ba78c6d8fc, type: 3}
       propertyPath: m_Name
       value: Polaroid Base Variant 8
@@ -1038,6 +1142,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5272376667317559453, guid: 028b3b4ee5ac4f840b953f76eeaeb3ab, type: 3}
       propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 5272376667317559453, guid: 028b3b4ee5ac4f840b953f76eeaeb3ab, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5272376667317559453, guid: 028b3b4ee5ac4f840b953f76eeaeb3ab, type: 3}
+      propertyPath: eventBridgeData.eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
     - target: {fileID: 6305200244432952951, guid: 028b3b4ee5ac4f840b953f76eeaeb3ab, type: 3}
@@ -1154,12 +1266,28 @@ PrefabInstance:
       propertyPath: eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 5136221749575299470, guid: 0e0fef9ec2426b94e91cffc25e8eb449, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136221749575299470, guid: 0e0fef9ec2426b94e91cffc25e8eb449, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
     - target: {fileID: 5695536569556262044, guid: 0e0fef9ec2426b94e91cffc25e8eb449, type: 3}
       propertyPath: eventName
       value: OnLightSwitchToggle
       objectReference: {fileID: 0}
     - target: {fileID: 5695536569556262044, guid: 0e0fef9ec2426b94e91cffc25e8eb449, type: 3}
       propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 5695536569556262044, guid: 0e0fef9ec2426b94e91cffc25e8eb449, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5695536569556262044, guid: 0e0fef9ec2426b94e91cffc25e8eb449, type: 3}
+      propertyPath: eventBridgeData.eventBridge
       value: 
       objectReference: {fileID: 829731691134138940}
     m_RemovedComponents: []

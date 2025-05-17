@@ -1362,8 +1362,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 954fb7f585cef2347b9e17436a084b50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventBridge: {fileID: 687986094}
-  eventName: OnLightSwitchToggle
+  eventBridgeData:
+    eventBridge: {fileID: 687986094}
+    eventName: OnLightSwitchToggle
 --- !u!65 &1894785467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1808,6 +1809,73 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: a726d0750f06ff944b8a3220961df856, type: 3}
+--- !u!1001 &6883598584912511479
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6887918568214928, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_Name
+      value: Key Puzzle (final puzzle)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2170637892732492724, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 687986094}
+    - target: {fileID: 7476214445577528411, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7476214445577528411, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 7476214445577528411, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 7476214445577528411, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7476214445577528411, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7476214445577528411, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7476214445577528411, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7476214445577528411, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7476214445577528411, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7476214445577528411, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8779742898484000845, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 4779401881121938410, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1828,3 +1896,4 @@ SceneRoots:
   - {fileID: 44609181}
   - {fileID: 5967611087994275814}
   - {fileID: 1894785470}
+  - {fileID: 6883598584912511479}

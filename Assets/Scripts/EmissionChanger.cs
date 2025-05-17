@@ -6,28 +6,27 @@ using UnityEngine;
 public class EmissionChanger : MonoBehaviour
 {
     private readonly int EmissionColor = Shader.PropertyToID("_EmissionColor");
-    public float storedValue;
 
     [SerializeField] private Material mat;
     
-    private Light light;
-    private Color initialColor;
+    private Light m_light;
+    private Color m_initialColor;
 
     // Start is called before the first frame update
     IEnumerator Start()
     {
-        light = GetComponentInChildren<Light>();
+        m_light = GetComponentInChildren<Light>();
         if (mat == null)
         {
             mat = GetComponent<Renderer>().material;
         }
-        initialColor = mat.color;
+        m_initialColor = mat.color;
 
         while (true)
         {
             yield return new WaitForSeconds(0.3f);
 
-            mat.SetColor(EmissionColor, initialColor * (light.gameObject.activeSelf ? 1 : 0));
+            mat.SetColor(EmissionColor, m_initialColor * (m_light.gameObject.activeSelf ? 1 : 0));
         }
     }
 }

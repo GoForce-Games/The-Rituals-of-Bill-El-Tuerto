@@ -3,15 +3,12 @@ using UnityEngine;
 
 public class ToggleableObject : MonoBehaviour
 {
-    public EventBridge eventBridge;
-    public string eventName;
+    public EventBridgeData eventBridgeData;
 
     private void Start()
     {
-        if (eventBridge == null)
-            eventBridge = FindObjectOfType<EventBridge>();
         
-        eventBridge?.AddListener(eventName, Toggle);
+        eventBridgeData.AddListener(Toggle);
     }
 
     public void Toggle()

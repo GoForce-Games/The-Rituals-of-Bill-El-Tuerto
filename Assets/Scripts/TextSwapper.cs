@@ -7,8 +7,7 @@ using UnityEngine.Serialization;
 
 public class TextSwapper : MonoBehaviour
 {
-    public EventBridge eventBridge;
-    public string eventName;
+    public EventBridgeData eventBridgeData;
     
     TMP_Text textComponent;
 
@@ -19,10 +18,7 @@ public class TextSwapper : MonoBehaviour
     {
         textComponent = GetComponentInChildren<TMP_Text>();
         
-        if (eventBridge == null)
-            eventBridge = FindObjectOfType<EventBridge>();
-        
-        eventBridge?.AddListener(eventName, OnTextSwap);
+        EventBridge.instance.AddListener(eventBridgeData.eventName, OnTextSwap);
     }
 
     public void OnTextSwap()

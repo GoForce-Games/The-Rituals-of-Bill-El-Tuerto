@@ -7,8 +7,7 @@ using UnityEngine.Events;
 
 public class ToggleSource : MonoBehaviour
 {
-    public EventBridge eventBridge;
-    public string eventName;
+    public EventBridgeData eventBridgeData;
     
     private bool m_triggered = false;
 
@@ -16,16 +15,14 @@ public class ToggleSource : MonoBehaviour
 
     private void Start()
     {
-        if (eventBridge == null)
-            eventBridge = FindObjectOfType<EventBridge>();
     }
     
     public void Toggle()
     {
         m_triggered = !m_triggered;
-        transform.localRotation = Quaternion.Euler((m_triggered ? (Vector3.right * 4.5f) : Vector3.zero));
+        transform.localRotation = Quaternion.Euler((m_triggered ? (Vector3.right * rotation) : Vector3.zero));
         Debug.Log(transform.localEulerAngles.ToString());
 
-        eventBridge?.InvokeEvent(eventName);
+        eventBridgeData.InvokeEvent();
     }
 }

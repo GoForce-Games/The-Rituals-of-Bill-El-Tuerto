@@ -13,6 +13,11 @@ public class EventBridge : MonoBehaviour
         if (!instance)
         {
             instance = this;
+            
+            #if UNITY_EDITOR
+            QualitySettings.vSyncCount = 0;
+            Application.targetFrameRate = 120;
+            #endif
         }
         else
         {
