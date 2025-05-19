@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1361249312349396971}
   - component: {fileID: 3298046283736490115}
+  - component: {fileID: 1714257500800190158}
   m_Layer: 0
   m_Name: DigitalClock
   m_TagString: Untagged
@@ -55,6 +56,23 @@ MonoBehaviour:
   - {fileID: 297271995414799813}
   minutes: 15
   seconds: 0
+--- !u!114 &1714257500800190158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170690341431551097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 954fb7f585cef2347b9e17436a084b50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventBridgeData:
+    eventBridge: {fileID: 0}
+    eventName: OnKeyUsed
+  objectToToggle: {fileID: 0}
+  componentToToggle: {fileID: 3298046283736490115}
 --- !u!1 &4355093498377859127
 GameObject:
   m_ObjectHideFlags: 0

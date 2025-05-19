@@ -27,7 +27,7 @@ public class CountdownTimer : MonoBehaviour
             }
         }
         
-        while (!triggered)
+        while (!triggered && enabled)
         {
             yield return m_wait;
             seconds--;
@@ -42,6 +42,7 @@ public class CountdownTimer : MonoBehaviour
             {
                 eventBridgeData.InvokeEvent();
                 triggered = true;
+                enabled = false;
             }
         }
 

@@ -1365,6 +1365,8 @@ MonoBehaviour:
   eventBridgeData:
     eventBridge: {fileID: 687986094}
     eventName: OnLightSwitchToggle
+  objectToToggle: {fileID: 0}
+  componentToToggle: {fileID: 0}
 --- !u!65 &1894785467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1821,17 +1823,69 @@ PrefabInstance:
       propertyPath: m_Name
       value: Key Puzzle (final puzzle)
       objectReference: {fileID: 0}
+    - target: {fileID: 251424590225442428, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_Lock.m_RequiredKeys.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 251424590225442428, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_Lock.m_RequiredKeys.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 17febfa5ff4d4d5488e0063b747737bf, type: 2}
+    - target: {fileID: 666638717656034094, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779285746612552144, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.798
+      objectReference: {fileID: 0}
+    - target: {fileID: 779285746612552144, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779285746612552144, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.289
+      objectReference: {fileID: 0}
+    - target: {fileID: 779285746612552144, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 779285746612552144, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779285746612552144, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 779285746612552144, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 779285746612552144, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2170637892732492724, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
     - target: {fileID: 2170637892732492724, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
       propertyPath: eventBridgeData.eventBridge
       value: 
       objectReference: {fileID: 687986094}
+    - target: {fileID: 2395498558241318108, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.39
+      objectReference: {fileID: 0}
     - target: {fileID: 7476214445577528411, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7476214445577528411, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.56
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7476214445577528411, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1865,8 +1919,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9057962646920430164, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.761
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2045851392893382431, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8779742898484000845, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
