@@ -221,7 +221,7 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 6574992086414973440}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -302,8 +302,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e085a1ba6eb60644b823fd5fcb33316f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventBridge: {fileID: 0}
-  eventName: 
+  eventBridgeData:
+    eventBridge: {fileID: 0}
+    eventName: 
   storedText: "\u9375"
   storedColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &8788322346821470520
