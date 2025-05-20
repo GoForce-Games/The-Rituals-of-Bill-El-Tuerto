@@ -8792,7 +8792,7 @@ Transform:
   m_GameObject: {fileID: 777258505}
   serializedVersion: 2
   m_LocalRotation: {x: -0.13902551, y: -0.13902555, z: -0.69330513, w: 0.6933051}
-  m_LocalPosition: {x: -0.08, y: -0.14, z: -1.94}
+  m_LocalPosition: {x: -0.08, y: 0.12, z: -0.84}
   m_LocalScale: {x: 10.243008, y: 10.243008, z: 10.243011}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18927,7 +18927,7 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 777258506}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
