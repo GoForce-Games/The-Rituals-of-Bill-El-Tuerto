@@ -11331,7 +11331,7 @@ MonoBehaviour:
   eventBridgeData:
     eventBridge: {fileID: 1073833815}
     eventName: OnLightSwitchToggle
-  objectToToggle: {fileID: 0}
+  objectToToggle: {fileID: 938023823}
   componentToToggle: {fileID: 0}
 --- !u!4 &941582946 stripped
 Transform:
