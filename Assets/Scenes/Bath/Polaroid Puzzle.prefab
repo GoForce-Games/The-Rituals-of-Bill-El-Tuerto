@@ -1,0 +1,1302 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2107352067560987955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1618200907337959305}
+  m_Layer: 0
+  m_Name: Light Switches
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1618200907337959305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107352067560987955}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8055995492249417334}
+  - {fileID: 6163234877536475961}
+  - {fileID: 8958239880319370277}
+  - {fileID: 7134396052134887796}
+  m_Father: {fileID: 4844218864965667602}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3383295788439641768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4844218864965667602}
+  m_Layer: 0
+  m_Name: Polaroid Puzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4844218864965667602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3383295788439641768}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.239, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2674474018440556478}
+  - {fileID: 1030829556253764932}
+  - {fileID: 1618200907337959305}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5907283386214684014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2674474018440556478}
+  - component: {fileID: 829731691134138940}
+  m_Layer: 0
+  m_Name: EventBridge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2674474018440556478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5907283386214684014}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.025240077, y: 0.2996535, z: 0.0014125407}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4844218864965667602}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &829731691134138940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5907283386214684014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28eef785a8d7d184ca254f74680fff33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events:
+  - eventName: OnLightSwitchToggle
+    unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!1 &6283874598286298282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030829556253764932}
+  m_Layer: 0
+  m_Name: Polaroids
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030829556253764932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6283874598286298282}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7665822387014725654}
+  - {fileID: 1167718800484351712}
+  - {fileID: 809777607941248923}
+  - {fileID: 6599944603512896018}
+  - {fileID: 900399763191216507}
+  - {fileID: 6580038264527824580}
+  - {fileID: 6782838227107891423}
+  - {fileID: 4418037437882491152}
+  - {fileID: 9156319370344282374}
+  - {fileID: 8517604864406223011}
+  m_Father: {fileID: 4844218864965667602}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1001 &1114330073612357690
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618200907337959305}
+    m_Modifications:
+    - target: {fileID: 2087518416509764611, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: m_Name
+      value: Light_Switch_Rocker_2_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801982128557982651, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801982128557982651, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 7801982128557982651, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801982128557982651, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 7815031939634565454, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815031939634565454, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815031939634565454, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815031939634565454, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815031939634565454, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815031939634565454, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815031939634565454, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815031939634565454, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815031939634565454, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815031939634565454, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765801875372037773, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765801875372037773, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 8765801875372037773, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765801875372037773, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+--- !u!4 &7134396052134887796 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7815031939634565454, guid: 2b670b7c8f7174ca0aa4438591e008fb, type: 3}
+  m_PrefabInstance: {fileID: 1114330073612357690}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1130185800822479258
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1030829556253764932}
+    m_Modifications:
+    - target: {fileID: 5876707755435364677, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876707755435364677, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876707755435364677, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876707755435364677, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876707755435364677, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876707755435364677, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876707755435364677, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876707755435364677, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876707755435364677, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876707755435364677, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598986610669146928, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598986610669146928, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 7598986610669146928, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598986610669146928, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 8637528730442853850, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+      propertyPath: m_Name
+      value: Polaroid Base Variant 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+--- !u!4 &6782838227107891423 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5876707755435364677, guid: 724fcac48d98b4161a5755f774293503, type: 3}
+  m_PrefabInstance: {fileID: 1130185800822479258}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1739615790799665830
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618200907337959305}
+    m_Modifications:
+    - target: {fileID: 2940667810773470042, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+      propertyPath: m_Name
+      value: Light_Switch_Rocker_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671920373883118817, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671920373883118817, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 6671920373883118817, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671920373883118817, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 8640435641897356496, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640435641897356496, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640435641897356496, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640435641897356496, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640435641897356496, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640435641897356496, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640435641897356496, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640435641897356496, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640435641897356496, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8640435641897356496, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+--- !u!4 &8055995492249417334 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8640435641897356496, guid: f2aa9670084b04e38bc9f0b72f4425f7, type: 3}
+  m_PrefabInstance: {fileID: 1739615790799665830}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2349808511040087958
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1030829556253764932}
+    m_Modifications:
+    - target: {fileID: 4895624300171616241, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4895624300171616241, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 4895624300171616241, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4895624300171616241, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 6727090103310311707, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+      propertyPath: m_Name
+      value: Polaroid Base Variant 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8866326260354096516, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8866326260354096516, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8866326260354096516, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8866326260354096516, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8866326260354096516, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 8866326260354096516, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8866326260354096516, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8866326260354096516, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8866326260354096516, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8866326260354096516, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+--- !u!4 &6599944603512896018 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8866326260354096516, guid: 020f067b46ea74854af2f064ed07e808, type: 3}
+  m_PrefabInstance: {fileID: 2349808511040087958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2619378142308769422
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1030829556253764932}
+    m_Modifications:
+    - target: {fileID: 4418081941653614439, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: m_renderer
+      value: 
+      objectReference: {fileID: 7975891986413307368}
+    - target: {fileID: 4418081941653614439, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.0075
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398101858372836198, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 21254508783018724, guid: 12c27379b39e44346813b13ec333d516, type: 2}
+    - target: {fileID: 5637273435110600344, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637273435110600344, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.30000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637273435110600344, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637273435110600344, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637273435110600344, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637273435110600344, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637273435110600344, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637273435110600344, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637273435110600344, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637273435110600344, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7524237752733766151, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: m_Name
+      value: Polaroid Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557079864797244653, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557079864797244653, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 8557079864797244653, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557079864797244653, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+--- !u!4 &7665822387014725654 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5637273435110600344, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+  m_PrefabInstance: {fileID: 2619378142308769422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7975891986413307368 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5398101858372836198, guid: b11e59298503a47e1a3221b3b8099467, type: 3}
+  m_PrefabInstance: {fileID: 2619378142308769422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2657761527506962057
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618200907337959305}
+    m_Modifications:
+    - target: {fileID: 635738673727842738, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 635738673727842738, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 635738673727842738, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 635738673727842738, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 4573214158496127091, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+      propertyPath: m_Name
+      value: Light_Switch_Rocker_1_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172469202454355376, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172469202454355376, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172469202454355376, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172469202454355376, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172469202454355376, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172469202454355376, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172469202454355376, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172469202454355376, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172469202454355376, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172469202454355376, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+--- !u!4 &6163234877536475961 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8172469202454355376, guid: 93508ca11daa644138317cd5c58d70a7, type: 3}
+  m_PrefabInstance: {fileID: 2657761527506962057}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4402796038396656539
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1030829556253764932}
+    m_Modifications:
+    - target: {fileID: 4758079802622542493, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758079802622542493, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758079802622542493, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758079802622542493, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758079802622542493, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758079802622542493, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758079802622542493, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758079802622542493, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758079802622542493, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758079802622542493, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7230793443709287938, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+      propertyPath: m_Name
+      value: Polaroid Base Variant 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859526879961891048, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859526879961891048, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 8859526879961891048, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859526879961891048, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+--- !u!4 &9156319370344282374 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4758079802622542493, guid: 29e6e7f81c3fe4621a1e027c5f1d4b18, type: 3}
+  m_PrefabInstance: {fileID: 4402796038396656539}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4518263374975297524
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1030829556253764932}
+    m_Modifications:
+    - target: {fileID: 280381227088971492, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 280381227088971492, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 280381227088971492, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 280381227088971492, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 280381227088971492, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 280381227088971492, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 280381227088971492, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 280381227088971492, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 280381227088971492, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 280381227088971492, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717066066862242427, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+      propertyPath: m_Name
+      value: Polaroid Base Variant 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260222331214087313, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260222331214087313, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 4260222331214087313, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260222331214087313, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+--- !u!4 &4418037437882491152 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 280381227088971492, guid: 7919ea0800d2840cf9c9ea191444d848, type: 3}
+  m_PrefabInstance: {fileID: 4518263374975297524}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5688212366492061213
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1030829556253764932}
+    m_Modifications:
+    - target: {fileID: 1558363062477973721, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558363062477973721, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558363062477973721, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558363062477973721, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558363062477973721, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558363062477973721, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558363062477973721, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558363062477973721, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558363062477973721, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558363062477973721, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268256996187876012, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268256996187876012, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 3268256996187876012, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268256996187876012, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 3742635318899250246, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+      propertyPath: m_Name
+      value: Polaroid Base Variant 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+--- !u!4 &6580038264527824580 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1558363062477973721, guid: 5a3f2552d024f49be97d35ab865971ef, type: 3}
+  m_PrefabInstance: {fileID: 5688212366492061213}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6089569776719415329
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1030829556253764932}
+    m_Modifications:
+    - target: {fileID: 4951405963014502081, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951405963014502081, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951405963014502081, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951405963014502081, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951405963014502081, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951405963014502081, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951405963014502081, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951405963014502081, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951405963014502081, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951405963014502081, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7126389447494339166, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+      propertyPath: m_Name
+      value: Polaroid Base Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957002029324743860, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957002029324743860, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 8957002029324743860, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957002029324743860, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+--- !u!4 &1167718800484351712 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4951405963014502081, guid: 9d28594aa27da4eb6a5ec9f130cb2faf, type: 3}
+  m_PrefabInstance: {fileID: 6089569776719415329}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6617482300548622349
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1030829556253764932}
+    m_Modifications:
+    - target: {fileID: 5830733693345726358, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830733693345726358, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830733693345726358, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830733693345726358, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830733693345726358, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830733693345726358, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830733693345726358, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830733693345726358, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830733693345726358, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830733693345726358, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7498961737797189091, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7498961737797189091, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 7498961737797189091, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7498961737797189091, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 8555156396763579145, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+      propertyPath: m_Name
+      value: Polaroid Base Variant 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+--- !u!4 &809777607941248923 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5830733693345726358, guid: 38f362fe3ed2b435a92822fc43712d47, type: 3}
+  m_PrefabInstance: {fileID: 6617482300548622349}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7011986108008329004
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1030829556253764932}
+    m_Modifications:
+    - target: {fileID: 1691955191040776079, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691955191040776079, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691955191040776079, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691955191040776079, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691955191040776079, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691955191040776079, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691955191040776079, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691955191040776079, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691955191040776079, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691955191040776079, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422820202159363578, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422820202159363578, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 3422820202159363578, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422820202159363578, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 3543172116819602192, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+      propertyPath: m_Name
+      value: Polaroid Base Variant 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+--- !u!4 &8517604864406223011 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1691955191040776079, guid: 5e0a730fb2e03413bb296b557a3f2327, type: 3}
+  m_PrefabInstance: {fileID: 7011986108008329004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9056359431339416467
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1030829556253764932}
+    m_Modifications:
+    - target: {fileID: 5272376667317559453, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5272376667317559453, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 5272376667317559453, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5272376667317559453, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 6305200244432952951, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+      propertyPath: m_Name
+      value: Polaroid Base Variant 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201189319153885928, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201189319153885928, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201189319153885928, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201189319153885928, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201189319153885928, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201189319153885928, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201189319153885928, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.1102232e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201189319153885928, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201189319153885928, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201189319153885928, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+--- !u!4 &900399763191216507 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8201189319153885928, guid: 80d863cc0d4c348259626055d451b65f, type: 3}
+  m_PrefabInstance: {fileID: 9056359431339416467}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9093486547254290516
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618200907337959305}
+    m_Modifications:
+    - target: {fileID: 171280137047649393, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 171280137047649393, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 171280137047649393, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 171280137047649393, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 171280137047649393, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 171280137047649393, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 171280137047649393, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 171280137047649393, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 171280137047649393, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 171280137047649393, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2366147292390443271, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: m_Name
+      value: Light_Switch_Rocker_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136221749575299470, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136221749575299470, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 5136221749575299470, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136221749575299470, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 5695536569556262044, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5695536569556262044, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    - target: {fileID: 5695536569556262044, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: eventBridgeData.eventName
+      value: OnLightSwitchToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5695536569556262044, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+      propertyPath: eventBridgeData.eventBridge
+      value: 
+      objectReference: {fileID: 829731691134138940}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+--- !u!4 &8958239880319370277 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 171280137047649393, guid: 161fd92eeb9dc4eaf8e4f5b2b1665ddd, type: 3}
+  m_PrefabInstance: {fileID: 9093486547254290516}
+  m_PrefabAsset: {fileID: 0}
