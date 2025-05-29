@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovimientoRelativo : MonoBehaviour
 {
-    public Vector3 desplazamiento1 = new Vector3(, 0, 0); 
+    public Vector3 desplazamiento1 = new Vector3(0, 0, 0); 
     public Vector3 desplazamiento2 = new Vector3(0, 0, 0); 
 
     void Start()
