@@ -36,7 +36,7 @@ public class VinylChecker : MonoBehaviour
             var selected = sockets[i].GetOldestInteractableSelected();
             if (selected != null)
             {
-                var vinyl = selected.transform.GetComponent<VinylNumber>();
+                var vinyl = selected.transform.GetComponent<VinylData>();
                 if (vinyl.number != order[i])
                 {
                     return;
