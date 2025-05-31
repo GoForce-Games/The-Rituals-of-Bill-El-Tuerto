@@ -5,4 +5,5 @@ using UnityEngine;
 public class VinylNumber : MonoBehaviour
 {
     public int number;
+    public AudioClip audio;
 }
