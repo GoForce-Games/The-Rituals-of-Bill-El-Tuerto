@@ -5,7 +5,7 @@ using UnityEngine;
 public class rotacion : MonoBehaviour
 {
     public Transform objetoARotar;
-    public float velocidad = 90f; // grados por segundo
+    public float velocidad = 90f; 
     private float objetivoZ = 50f;
     private bool haLlegado = false;
 
@@ -13,13 +13,13 @@ public class rotacion : MonoBehaviour
     {
         if (objetoARotar == null || haLlegado) return;
 
-        // Obtener rotación actual en ángulos de Euler
+        
         Vector3 rotacionActual = objetoARotar.localEulerAngles;
 
-        // Convertir ángulo a rango -180 a 180 para comparación precisa
+        
         float zActual = NormalizeAngle(rotacionActual.z);
 
-        // Si ya hemos llegado (con margen), fijar rotación y salir
+        
         if (Mathf.Abs(zActual - objetivoZ) < 0.1f)
         {
             objetoARotar.localRotation = Quaternion.Euler(rotacionActual.x, rotacionActual.y, objetivoZ);
@@ -27,12 +27,12 @@ public class rotacion : MonoBehaviour
             return;
         }
 
-        // Rotar suavemente hacia objetivo
+       
         float nuevaZ = Mathf.MoveTowardsAngle(zActual, objetivoZ, velocidad * Time.deltaTime);
         objetoARotar.localRotation = Quaternion.Euler(rotacionActual.x, rotacionActual.y, nuevaZ);
     }
 
-    // Normaliza ángulo a rango -180 a 180 para comparar correctamente
+    
     float NormalizeAngle(float angle)
     {
         angle = angle % 360f;
