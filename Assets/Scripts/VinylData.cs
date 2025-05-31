@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VinylNumber : MonoBehaviour
+public class VinylData : MonoBehaviour
 {
     public int number;
-    public AudioClip audio;
+    public AudioClip audioClip;
 }

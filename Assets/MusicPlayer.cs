@@ -18,8 +18,8 @@ public class MusicPlayer : MonoBehaviour
 
     public void PlayMusic()
     {
-        var vinyl = socket.GetOldestInteractableSelected().transform.GetComponent<VinylNumber>();
-        audioSource.clip = vinyl.audio;
+        var vinyl = socket.GetOldestInteractableSelected().transform.GetComponent<VinylData>();
+        audioSource.clip = vinyl.audioClip;
         audioSource.Play();
     }
     
