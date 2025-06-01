@@ -5,18 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Welcome Scene.unity
     guid: a7cd8706b2a8c3e47b21d0fe6c4ca790
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/LivingRoom.unity
     guid: 1bd62ae36a7ba4c469fe661efc303303
   - enabled: 1
-    path: Assets/Scenes/Estudio.unity
-    guid: 55daccc09a3b69647bbab145b54a3ab3
-  - enabled: 0
     path: Assets/Scenes/Bath.unity
     guid: b3f1a221a48d8124c9824d7ac1e325c0
+  - enabled: 1
+    path: Assets/Scenes/Estudio.unity
+    guid: 55daccc09a3b69647bbab145b54a3ab3
+  - enabled: 1
+    path: Assets/Scenes/EscenaFinal.unity
+    guid: 4981f97e1e75c44a59f0ffc1160f9da6
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
