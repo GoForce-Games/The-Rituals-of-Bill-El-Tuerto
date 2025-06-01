@@ -7,7 +7,7 @@ public class MountAndDriveTractor : MonoBehaviour
     [Header("References")]
     public XROrigin xrRig;
     public Transform mountPoint;
-    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable interactable; // Aquí puedes arrastrar el XR Simple Interactable desde el Inspector
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable interactable; 
 
     private bool isMounted = false;
 

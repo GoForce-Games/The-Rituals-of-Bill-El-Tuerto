@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class MoveAndActivateOnTrigger : MonoBehaviour
 {
+    
+    public GameObject music;
+
     [Header("Movimiento")]
     public Transform targetPosition; // El transform al que se moverá el objeto
     public GameObject objectToMove;  // El objeto que se moverá (la bañera)
@@ -49,6 +52,7 @@ public class MoveAndActivateOnTrigger : MonoBehaviour
         if (objectToActivate != null)
         {
             objectToActivate.SetActive(true);
+            music.SetActive(false);
         }
         
         Debug.Log("¡Objetos activados!");
