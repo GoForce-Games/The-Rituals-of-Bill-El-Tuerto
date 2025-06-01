@@ -13,6 +13,8 @@ public class MusicPlayer : MonoBehaviour
 
     private void Start()
     {
+        if (!socket)
+            socket = GetComponent<XRLockSocketInteractor>();
         audioSource = GetComponent<AudioSource>();
     }
 
@@ -21,6 +23,7 @@ public class MusicPlayer : MonoBehaviour
         var vinyl = socket.GetOldestInteractableSelected().transform.GetComponent<VinylData>();
         audioSource.clip = vinyl.audioClip;
         audioSource.Play();
+        Debug.Log(vinyl.audioClip);
     }
     
     public void StopMusic() => audioSource.Stop();

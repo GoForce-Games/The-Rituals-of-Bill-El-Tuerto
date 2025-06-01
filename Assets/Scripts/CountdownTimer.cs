@@ -6,6 +6,10 @@ using UnityEngine;
 
 public class CountdownTimer : MonoBehaviour
 {
+    private static bool started = false;
+    private static int s_minutes = 0;
+    private static int s_seconds = 0;
+    
     [SerializeField] private EventBridgeData eventBridgeData;
 
     [SerializeField] private List<TMP_Text> textComponents;
@@ -26,19 +30,26 @@ public class CountdownTimer : MonoBehaviour
                 Debug.LogWarning("No text components found");
             }
         }
+
+        if (!started)
+        {
+            s_minutes = minutes;
+            s_seconds = seconds;
+            started = true;
+        }
         
         while (!triggered && enabled)
         {
             yield return m_wait;
-            seconds--;
-            if (seconds < 0)
+            s_seconds--;
+            if (s_seconds < 0)
             {
-                minutes--;
-                seconds = 59;
+                s_minutes--;
+                s_seconds = 59;
             }
-            textComponents.ForEach((t)=>t.text = $"{minutes:D2}:{seconds:D2}");
+            textComponents.ForEach((t)=>t.text = $"{s_minutes:D2}:{s_seconds:D2}");
 
-            if (minutes == 0 && seconds == 0)
+            if (s_minutes == 0 && s_seconds == 0)
             {
                 eventBridgeData.InvokeEvent();
                 triggered = true;
