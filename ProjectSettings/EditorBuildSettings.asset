@@ -5,16 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Welcome Scene.unity
     guid: a7cd8706b2a8c3e47b21d0fe6c4ca790
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LivingRoom.unity
     guid: 1bd62ae36a7ba4c469fe661efc303303
   - enabled: 1
     path: Assets/Scenes/Estudio.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bath.unity
     guid: b3f1a221a48d8124c9824d7ac1e325c0
   m_configObjects:
