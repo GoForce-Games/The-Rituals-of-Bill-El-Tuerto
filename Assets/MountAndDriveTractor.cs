@@ -44,21 +44,14 @@ public class MountAndDriveTractor : MonoBehaviour
     {
         if (xrRig != null && mountPoint != null)
         {
-            // Obtener la posición de la cámara (ojos del jugador)
             Transform cameraTransform = xrRig.Camera.transform;
-
-            // Diferencia entre la posición de la cámara y el origen del rig
             Vector3 headToRigOffset = cameraTransform.position - xrRig.transform.position;
-
-            // Nuevo origen del rig para que la cámara quede en el mount point
             Vector3 newRigPosition = mountPoint.position - headToRigOffset;
 
             xrRig.transform.position = newRigPosition;
             xrRig.transform.rotation = Quaternion.Euler(0, mountPoint.eulerAngles.y, 0);
 
             isMounted = true;
-
-            Debug.Log($"Mounted: Setting XR Rig to {newRigPosition}, offset was {headToRigOffset}");
         }
     }
 
