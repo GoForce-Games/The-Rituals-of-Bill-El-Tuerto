@@ -55,7 +55,7 @@ MonoBehaviour:
   textComponents:
   - {fileID: 6216846964399097149}
   - {fileID: 297271995414799813}
-  minutes: 15
+  minutes: 30
   seconds: 0
 --- !u!114 &1714257500800190158
 MonoBehaviour:
