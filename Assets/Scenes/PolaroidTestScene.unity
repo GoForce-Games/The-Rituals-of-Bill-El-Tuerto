@@ -2990,6 +2990,14 @@ PrefabInstance:
       value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 2170637892732492724, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: minutes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2170637892732492724, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
+      propertyPath: seconds
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2170637892732492724, guid: cc9df844929d21543bf8fc6f288ef98d, type: 3}
       propertyPath: eventBridgeData.eventName
       value: OnLightSwitchToggle
       objectReference: {fileID: 0}
