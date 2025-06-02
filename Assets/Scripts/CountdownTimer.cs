@@ -3,12 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CountdownTimer : MonoBehaviour
 {
     private static bool started = false;
     private static int s_minutes = 0;
     private static int s_seconds = 0;
+
+     [SerializeField] private string sceneToLoad;
     
     [SerializeField] private EventBridgeData eventBridgeData;
 
@@ -53,7 +56,7 @@ public class CountdownTimer : MonoBehaviour
             {
                 eventBridgeData.InvokeEvent();
                 triggered = true;
-                enabled = false;
+                SceneManager.LoadScene(sceneToLoad);
             }
         }
 
