@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EscenaFinal.unity
     guid: 4981f97e1e75c44a59f0ffc1160f9da6
+  - enabled: 1
+    path: Assets/Scenes/FailScene.unity
+    guid: 9945de48df1dc574cbce74901941d433
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
