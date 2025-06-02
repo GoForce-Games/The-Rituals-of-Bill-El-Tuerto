@@ -8,6 +8,7 @@ public class MountAndDriveTractor : MonoBehaviour
     public XROrigin xrRig;
     public Transform mountPoint;
     public UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable interactable; 
+    public Transform dismountPoint;
 
     private bool isMounted = false;
 
@@ -56,10 +57,29 @@ public class MountAndDriveTractor : MonoBehaviour
     }
 
 
-    void Dismount()
+    public void Dismount()
     {
+        if (xrRig != null && dismountPoint != null)
+        {
+            Transform cameraTransform = xrRig.Camera.transform;
+            Vector3 headToRigOffset = cameraTransform.position - xrRig.transform.position;
+            Vector3 newRigPosition = dismountPoint.position - headToRigOffset;
+
+            xrRig.transform.position = newRigPosition;
+            xrRig.transform.rotation = Quaternion.Euler(0, dismountPoint.eulerAngles.y, 0);
+        }
+
         isMounted = false;
     }
+
+    public void DismountFromOutside()
+    {
+        if (isMounted)
+        {
+            Dismount();
+        }
+    }
+
 
     void Update()
     {
